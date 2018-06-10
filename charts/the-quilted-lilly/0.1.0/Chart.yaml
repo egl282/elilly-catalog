@@ -1,0 +1,13 @@
+description: Website for The Quilted Lillys
+engine: gotpl
+maintainers:
+- email: elilly@harding.edu
+  name: Ethan Lilly
+# icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+name: the-quilted-lilly
+sources:
+- https://github.com/egl282/elilly-catalog
+- https://github.com/egl282/thequiltedlilly
+version: 0.1.0
+appVersion: 5.1.2
+kubeVersion: "^1.8.0-0"
