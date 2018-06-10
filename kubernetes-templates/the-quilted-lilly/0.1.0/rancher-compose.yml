@@ -1,0 +1,6 @@
+.catalog:
+    name: the-quilted-lilly
+    version: 0.1.0
+    description: "The Quilted Lilly"
+    maintainer: "Ethan Lilly"
+    maximum_rancher_version: v2.99.99

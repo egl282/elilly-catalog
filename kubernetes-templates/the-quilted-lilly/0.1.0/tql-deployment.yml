@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tql-deployment
+  labels:
+    app: tql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tql
+  template:
+    metadata:
+      labels:
+        app: tql
+    spec:
+      containers:
+      - name: tql
+        image: tql:0.1
+        ports:
+        - containerPort: 8000
